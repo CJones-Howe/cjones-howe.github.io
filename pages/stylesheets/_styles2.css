@@ -1,0 +1,28 @@
+body {
+    font-family: Papyrus, fantasy;
+    background-color: silver;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: navy;
+}
+
+p {
+    font-size: 18px;
+    color: greenyellow;
+}
+
+button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
