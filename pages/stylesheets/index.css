@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E5D5D5;
+    padding: 20px;}}
+
+h1 {
+    color: #556354;}
+
+p {
+    font-size: 18px;
+    color: #665454;}
+
+a:link {
+	color: green;}
+
+a:visited {
+	color: slategrey;}
+
+a:hover {
+	color:  hotpink;}
+
+a:active {
+	color: blue;}
+
