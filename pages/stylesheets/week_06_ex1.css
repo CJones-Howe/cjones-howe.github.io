@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E5D5D5;
+    padding: 20px;}}
+
+h1 {
+    color: #556354;}
+
+p {
+    font-size: 18px;
+    color: #665454;}
+
+a:link {
+	color: green;}
+
+a:visited {
+	color: slategrey;}
+
+a:hover {
+	color:  hotpink;}
+
+a:active {
+	color: blue;}
+
+
+/* Top Navigation Styling */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 15px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: green;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #f4a261;
+}

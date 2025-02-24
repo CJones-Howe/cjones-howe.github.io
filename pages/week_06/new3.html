@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+	<head>
+		<title>CYBR 201:  Web Technologies:  Spring 2025</title>
+		<link rel="icon" type="image/x-icon" href="pages/images/favicon.png">
+		<link rel="stylesheet" href="../stylesheets/week_06_ex1.css">
+	</head>
+
+<p><button aria-label="Open navigation menu">☰</button></p>
+<button aria-label="Close Menu">✖</button> 
+<!-- For screen readers*/ -->
+
+<div aria-live="polite">New messages will appear here.</div>
+<!-- Screen readers will read the content whenever it updates dynamically (e.g., chat messages). --> 
+
+
+<nav role="navigation">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<!--Screen readers will read the content whenever it updates dynamically (e.g., chat messages).-->
+<div aria-hidden="true">This text is hidden from screen readers.</div>
+<!--Useful for decorative elements or icons that don’t need to be read aloud -->
+<button aria-expanded="false">Show More</button>
+<!-- Used for dropdowns, accordions, or collapsible menus.-->

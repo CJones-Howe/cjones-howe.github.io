@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .image-container {
+            margin: 50px 0;
+        }
+        img {
+            width: 400px;
+            height: 250px;
+            background: #ddd; /* Placeholder while loading */
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Lazy Loading Demo</h1>
+    <p>Scroll down to see lazy-loaded images!</p>
+
+    <div class="image-container">
+        <img src="../images/week_06/pic1.webp" alt="Loaded Immediately">
+        <p>↑ This image loads immediately.</p>
+    </div>
+
+    <div class="image-container">
+        <img src="../images/week_06/vader.jpg" alt="Lazy Loaded Image" loading="lazy">
+        <p>↑ This image loads when it appears on screen.</p>
+    </div>
+
+    <div class="image-container">
+        <img src="../images/week_06/ewok.jpg" alt="Lazy Loaded Image" loading="lazy">
+        <p>↑ This image also loads only when visible.</p>
+    </div>
+
+</body>
+</html>

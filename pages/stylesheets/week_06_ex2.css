@@ -1,0 +1,19 @@
+/* Default: Mobile Styles */
+body {
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Tablet Screens (768px and larger) */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Desktop Screens (1024px and larger) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
