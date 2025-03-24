@@ -1,8 +1,4 @@
-// This is a comment
-let userName = "Student";
-let age = 20;
-let isEnrolled = true;
-
-console.log(userName);
-console.log(age);
-console.log(isEnrolled);
+// Output in different ways
+document.getElementById("demo").innerHTML = "This is written in JavaScript!";
+alert("This is an alert box!");
+console.log("This is logged in the console.");
